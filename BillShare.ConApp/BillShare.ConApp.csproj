@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BillShare.Contracts\BillShare.Contracts.csproj" />
     <ProjectReference Include="..\BillShare.Logic\BillShare.Logic.csproj" />
     <ProjectReference Include="..\CommonBase\CommonBase.csproj" />
