@@ -1,6 +1,6 @@
 ﻿namespace BillShare.Contracts
 {
-    public interface IIdentifyable
+    public partial interface IIdentifyable
     {
         int Id { get;  }
     }

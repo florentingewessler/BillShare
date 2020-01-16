@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="DataContext\Db\" />
     <Folder Include="Entities\Business\" />
   </ItemGroup>
 
