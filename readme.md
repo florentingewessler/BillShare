@@ -34,3 +34,7 @@ Erstellen einer Konsolenapplikation zum Testen der Struktur. Projektname wird wi
 
 + **Schritt 6**  
 Abhängigkeiten definieren.
+
+## Schnittstellen difinieren
+
+![Schnittstellen](Contracts.png)
