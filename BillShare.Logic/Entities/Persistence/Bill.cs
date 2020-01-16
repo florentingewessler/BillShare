@@ -17,6 +17,8 @@ namespace BillShare.Logic.Entities.Persistence
         public string Description { get; set; }
         public string Friends { get; set; }
         public string Currency { get; set; }
+        //Navigation Property
+        public IEnumerable<Expense> Expenses { get; set; }
 
         public void CopyProperties(IBill other)
         {

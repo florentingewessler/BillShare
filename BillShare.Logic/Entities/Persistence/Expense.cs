@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Remoting;
 using System.Text;
 using BillShare.Contracts.Persistence;
 using CommonBase.Extensions;
@@ -24,6 +25,6 @@ namespace BillShare.Logic.Entities.Persistence
         public string Friend { get; set; }
 
         //Navigation Property
-        public Bill bill { get; set; }
+        public Bill Bill { get; set; }
     }
 }
